@@ -31,7 +31,7 @@ jobs:
     - name: Lint with bandit
       run: |
         # stop the build if there are Python syntax errors or undefined names
-        bandit -r. -x test_*.py
+        bandit -r . -x test_*.py
         #
     - name: Test with pytest
       run: |
